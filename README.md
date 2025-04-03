@@ -15,5 +15,5 @@ gcloud builds submit --tag gcr.io/[project_id]/veo2-demo  .
 ```
 ## 使用cloud run启动镜像
 ```shell
-
+gcloud run deploy veo2-app --image gcr.io/[project_id]/veo2-demo  --platform managed  --region us-central1  --allow-unauthenticated --port 8501 --service-account [sa账号名]
 ```
