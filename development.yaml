@@ -1,0 +1,7 @@
+development:
+  gcp:
+    project_id: ai-poc-0310
+    location: us-central1
+    video_model: veo-2.0-generate-001
+    out_bucket: gs://veo2-output-bucket-demo
+    service_account: ai-poc-0310-07f98be3da59.json
